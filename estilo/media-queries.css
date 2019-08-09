@@ -1,0 +1,227 @@
+/*************************************
+
+    1024px media querie
+
+*************************************/
+
+@media screen and (max-width: 1024px) {
+    .destaqueHorizontal {
+        font-size: 100%;
+        float: left;
+        width: 173px;
+    }
+    .conteudo {
+        width: 100%;
+        padding-left: 0em;
+    }
+    .menu-esquerdo {
+        padding-left: 0.5em;
+    }
+    .barra-sup{
+        width: 100%;
+    }
+    .barra-sup-botoes {
+        padding-right: 2em;
+    }
+    .logo-portal{
+        width: 100%;
+    }
+    .busca-portal {
+        margin-right: 7.0em;
+    }
+    #navigation {
+        width:100%;
+    }
+    .footer {
+        width: 100%;
+    }
+    .redes-sociais {
+        display: none;
+    }
+    .logo-portal .link-logo{
+        padding-left: 2em;
+    }
+    #portal-columns {
+        width: 100%;
+    }
+/*    #portal-searchbox {
+        display: none;
+    }*/
+    .section-front-page #portal-breadcrumbs{
+        margin: none;
+        width: 80%;
+    }
+    #portal-breadcrumbs {
+        margin: none;
+        width: 100%;
+    }
+    #portal-column-two {
+        margin-top: 0px !important;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .busca-portal {
+        display: none;
+    }
+}
+/*************************************
+
+    FINAL 1024px media querie
+
+*************************************/
+/*************************************
+
+    650px media querie
+
+*************************************/
+@media screen and (max-width: 768px) {
+
+    #portal-searchbox, .redes {display:none;}
+
+    #portal-breadcrumbs{
+        display:none;
+    }
+    .menu-esquerdo {
+        width: 25%;
+    }
+    .conteudo-central {
+        border-right: none;
+        width: 70% !important;
+    }
+
+    .conteudo-direito{
+        display: none;
+    }
+
+    .links-secundarios-rodape {
+        display: none;
+    }
+    .busca-portal {
+        display: none;
+    }
+    /*teste menu*/
+    .nav-sub {
+        display: none;
+    }
+    #seletor {display:none;}
+    #seletor {color: #fff;}
+    .menu-container #seletor {
+        display:block;
+        padding:1em;
+        padding-bottom: 0em;
+        /*width:80%;*/
+        font: 1em verdana;
+     }
+    #navigation li {display: none;}
+    #navigation{
+        background: none;
+    }
+    .list {
+        background: #357DBE;
+    }
+    .menu-container:hover li {
+        display: block;
+        width:100%; 
+        border-top:1px solid #ffffff;;
+        display:block !Important;
+        padding:0;
+    }
+    
+    .menu-container ul {
+        width:97.5%;
+        margin:0;
+        padding:0;
+    }
+    
+    .menu-container:hover li a {
+        color: #ffffff;;
+        width:100%;
+        padding:0 2.5%;
+        line-height: 3em;
+        display: block;
+        width: 95% !important;
+    }
+    
+    .menu-container:hover li:hover {background: #E5E5E5;}
+    .menu-container:hover li a:hover,
+    .menu-container:hover li.selected a {background: transparent;}
+
+    #portal-column-content,    
+    #portal-column-two,
+    #portal-column-one {
+        margin-left: -100% !Important;
+        width: 96% !Important;
+        float:none !Important;
+    }
+    
+    .section-home-teste #portal-columns {top:0;}
+
+
+}
+/*************************************
+
+    FINAL 650px media querie
+
+*************************************/
+@media screen and (max-width: 650px) {
+    /*.menu-esquerdo{
+        display: none;
+    }*/
+    #portal-breadcrumbs {
+        display: none;
+    }
+    .links-primarios-rodape{
+        display: none;
+    }
+    .conteudo-central {
+        width: 70% !important;
+    }
+}
+/*************************************
+
+    600px media querie
+
+*************************************/
+@media screen and (max-width: 600px) {
+/*    .menu-esquerdo{
+        display: none;
+    }*/
+
+    .conteudo-central {
+        border-left: none;
+        width: 60% !important;
+    }
+}
+/*************************************
+
+    FINAL 600px media querie
+
+*************************************/
+/*************************************
+
+    480px media querie
+
+*************************************/
+@media screen and (max-width: 480px) {
+
+    /* disable webkit text size adjust (for iPhone) */
+    .menu-esquerdo{
+        display: none;
+    }
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .footer-container{
+        display: none;
+    }
+    .conteudo-central {
+        border-left: none;
+        width: 95% !important;
+    }
+}
+
+/*************************************
+
+    FINAL 480px media querie
+
+*************************************/

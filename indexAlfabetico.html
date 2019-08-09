@@ -1,0 +1,637 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='estilo/style.css?hvbaa' />
+    <link rel='stylesheet' type='text/css' href='estilo/contraste.css?edcFa' />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="function.js?t"></script>
+    <link rel="shortcut icon" href="favicon.ico/?1" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="m-accessibilidade">
+        <ul class="op-acess">
+
+            <li>
+                <p>1</p>
+                <a tabindex="1" class="link-accessibilidade" href="#content" accesskey="1" title="ir para o conteúdo principal da página - atalho nº1">
+               Ir para o conteúdo |
+               </a>
+            </li>
+            <li>
+                <p>2</p>
+                <a tabindex="2" class="link-accessibilidade" href="#portal-column-one" accesskey="2" title="ir para o menu principal da página - atalho nº2">
+               Ir para o menu | 
+               </a>
+            </li>
+            <li>
+                <p>3</p>
+                <a tabindex="3" id="link-buscar" class="link-accessibilidade" href="#SearchableText" accesskey="3" title="ir para o formulário de busca da página - atalho nº3">
+               Ir para a busca |  
+               </a>
+            </li>
+            <li>
+                <p>4</p>
+                <a tabindex="4" class="link-accessibilidade" href="#navigation" accesskey="4" title="Ir para o menu institucional - atalho nº4">
+               Ir para o Institucional |  
+               </a>
+            </li>
+            <li>
+                <p>5</p>
+                <a tabindex="5" class="link-accessibilidade" href="#roda1" accesskey="5" title="Ir para o rodapé da página - atalho nº4">
+               Ir para o rodapé 
+               </a>
+            </li>
+
+            <li id="siteaction-contraste" class="contrast">
+                <a href="#" title="Alto Contraste">Alto Contraste</a>
+
+            </li>
+
+            <li id="siteaction-accessibility" class="contrast">
+                <a href="/acessibilidade" title="Acessibilidade">Acessibilidade | </a>
+            </li>            
+            <li id="siteaction-accessibility-a-minus" class="contrast">
+                <a title="Texto Pequeno" id="aaa" href="#">A++ | </a>
+            </li>
+            <li id="siteaction-accessibility-a-plus" class="contrast">
+                <a title="Texto Grande" id="aa" href="#">A+ | </a> </li>
+            <li id="siteaction-accessibility-a-normal" class="contrast">
+                <a title="Texto Normal" id="a" href="#">A | </a>
+            </li>
+        </ul>   
+    </div>
+    <div class="topo">
+        <div class="barra-sup-container">
+            <div class="barra-sup">
+                <ul class="barra-sup-botoes">
+                    <li class="english">
+                        <a href="/english">
+                     English | </a>
+                    </li>
+                    <li class="espanol">
+                        <a href="http://portal.metodista.br/espanol">
+                     Español</a>
+                    </li>
+                    <li class="siteactions">
+                        <div class="links_berra_sup">
+                            <a id="superglobal" href="http://portal.metodista.br/atualiza"> Atualiza |</a> 
+                            <a id="supergloba2" href="http://portal.metodista.br/rhrapido"> RH Rápido | </a> 
+                            <a id="supergloba3" href="http://owa.metodista.br"> Webmail |</a> 
+                            <a id="supergloba4" href="/trabalhe-conosco">  Trabalhe Conosco | </a>
+                            <a id="supergloba5" href="/fale-conosco/"> Fale Conosco</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo-container">
+            <div class="logo-portal">
+                <a class="link-logo">
+                </a>
+                <a href="" id="link-da-setion" title="link da seção">.</a>
+            </div>
+            <div class="redes">
+                <a target="_blank" href="https://www.facebook.com/universidade.metodista"><img src="imagens/facebook1.gif" border="0" alt="Facebook da Metodista" />
+                </a>
+                <a target="_blank" href="https://twitter.com/metodista"><img src="imagens/twitter1.gif" border="0" alt="Twitter da Metodista" />
+                </a>
+                <a target="_blank" href="http://www.youtube.com/user/MetodistaWebTV">
+                    <img src="imagens/youtube1.gif" border="0" alt="Youtube da Metodista" />
+                </a>
+                <a target="_blank" href="https://www.flickr.com/photos/metodista-br">
+                    <img src="imagens/flickr1.gif" border="0" alt="Flickr da Metodista" />
+                </a>
+                <a target="_blank" href="http://www.linkedin.com/company/universidade-metodista-de-sao-paulo"><img src="imagens/linkedin1.gif" border="0" alt="Linkendin da Metodista" />
+                </a>
+                <a target="_blank" href="http://vimeo.com/univmetodista/"><img src="imagens/vimeo1.gif" border="0" alt="Vimeo da Metodista" />
+                </a>
+            </div>
+            <div class="busca-portal">
+                <input id="busca" type="text" title="Buscar" size="50" alt="Buscar no Portal da Metodista" value="Busacar no Portal da Metodista" />
+            </div>
+        </div>
+    </div>
+    <div class="menu-container">
+        <span id="seletor" onclick="void(0).focus">MENU</span>
+        <ul id="navigation" class="nav-main">
+            <li id="global-list1" class="list xirrim">
+                <a class="link-pri" href="http://portal.metodista.br/sobre">SOBRE NÓS</a>
+                <ul class="nav-sub">
+                    <li><a href="http://portal.metodista.br/sobre/missao-visao-e-valores/">Missão e Valores</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/sobre/historia">História</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/sobre/historia/o-movimento-metodista-e-a-educacao">Movimento Metodista e Educação</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/sobre/dirigentes-da-metodista">Dirigentes</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/balanco-social">Balanço Social </a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/universidade-aberta">Relacionamento com Escolas</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/universidade-aberta/universidade-aberta/visitas-individuais/">Agende sua visita</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/sobre/premios-e-reconhecimentos">Prêmios e Reconhecimento</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/ari">Relações Internacionais</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/pastoral"> Pastoral Universitária </a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/centro-de-sustentabilidade">Centro de Sustentabilidade </a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/congresso-metodista">Congresso Metodista </a>
+                    </li>
+                    <li><a href="http://www.colegiometodista.g12.br/" target="_blank">Colégio Metodista  </a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/avaliacao-institucional">Avaliação Institucional  </a>
+                    </li>
+                    <li><a href="http://metodista.br/cienciameto/">Agência de Divulgação Científica </a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/editora-metodista">Editora Metodista</a>
+                    </li>
+                    <li><a href="http://espacoeduca.uol.com.br/loja/index.php">Loja Online</a></li>
+                    <li><a href="http://portal.metodista.br/doacoes">Doações</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list xirrim" id="global-list2">
+                <a class="link-pri" href="#">CURSOS</a>
+                <ul class="nav-sub">
+                    <li class="categoria-global">
+                        <a href="#"><strong>Graduação Presencial</strong></a>
+                        <ul class="nav-sub2 grad">
+                            <li><a href="http://portal.metodista.br/administracao">Administração</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/comercio-exterior"> Administração - Comércio Exterior</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/administracao-financeira"> Administração Financeira</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/gestao-da-tecnologia-da-informacao"></a><a href="http://portal.metodista.br/analise-e-desenvolvimento-de-sistemas/">Análise e Desenvolvimento de Sistemas</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/gestao-da-qualidade"></a><a href="http://portal.metodista.br/automacao-industrial/"> Automação Industrial </a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/biomedicina"> Biomedicina </a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/ciencias-biologicas"> Ciências Biológicas</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/ciencias-contabeis">Ciências Contábeis</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/marketing"></a><a href="http://portal.metodista.br/ciencias-economicas"> Ciências Econômicas</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/ciencias-sociais-presencial">Ciências Sociais</a></li>
+                            <li><a href="http://portal.metodista.br/comunicacao-mercadologica">Comunicação Mercadológica</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/design-de-interiores">Design de Interiores</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/direito"> Direito</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/educacao-fisica">Educação Física</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/enfermagem">Enfermagem</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/engenharia-ambiental">Engenharia Ambiental e Sanitária</a>                            </li>
+                            <li><a href="http://portal.metodista.br/engenharia-civil">Engenharia Civil</a></li>
+                            <li><a href="http://portal.metodista.br/engenharia-da-computacao"> Engenharia da Computação </a>                            </li>
+                            <li><a href="http://portal.metodista.br/engenharia-de-producao">Engenharia de Produção</a>                            </li>
+                            <li><a href="http://portal.metodista.br/engenharia-eletronica">Engenharia Eletrônica</a></li>
+                            <li><a href="http://portal.metodista.br/estetica-e-cosmetica">Estética e Cosmética</a>                            </li>
+                            <li><a href="http://portal.metodista.br/farmacia"> Farmácia </a>                            </li>
+                            <li><a href="http://portal.metodista.br/filosofia"> Filosofia</a>                            </li>
+                            <li><a href="http://portal.metodista.br/fisioterapia"> Fisioterapia</a>                            </li>
+                            <li><a href="http://portal.metodista.br/gastronomia"> Gastronomia</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-da-producao-industrial">Gestão da Produção Industrial</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-de-recursos-humanos">Gestão de Recursos Humanos</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-da-tecnologia-da-informacao">Gestão da Tecnologia da Informação</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-da-qualidade">Gestão da Qualidade</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-financeira">Gestão Financeira</a></li>
+                            <li><a href="http://portal.metodista.br/jornalismo">Jornalismo</a></li>
+                            <li><a href="http://portal.metodista.br/tradutor">Letras &ndash; Lingua Estrangeira</a></li>
+                            <li><a href="http://portal.metodista.br/letras-lingua-portuguesa">Letras - Língua Portuguesa</a></li>
+                            <li><a href="http://portal.metodista.br/logistica">Logística</a></li>
+                            <li><a href="http://portal.metodista.br/marketing">Marketing</a></li>
+                            <li><a href="http://portal.metodista.br/matematica">Matemática</a></li>
+                            <li><a href="http://portal.metodista.br/veterinaria">Medicina Veterinária</a></li>
+                            <li><a href="http://portal.metodista.br/odontologia">Odontologia</a></li>
+                            <li><a href="http://portal.metodista.br/pedagogia">Pedagogia</a></li>
+                            <li><a href="http://portal.metodista.br/processos-gerenciais"> Processos Gerenciais</a></li>
+                            <li><a href="http://portal.metodista.br/producao-multimidia">Produção Multimídia</a> </li>
+                            <li><a href="http://portal.metodista.br/publicidade-e-propaganda">Publicidade e Propaganda</a> </li>
+                            <li><a href="http://portal.metodista.br/radio-tv-e-internet">Rádio, TV e Internet</a> </li>
+                            <li><a href="http://portal.metodista.br/psicologia">Psicologia</a> </li>
+                            <li><a href="http://portal.metodista.br/relacoes-publicas">Relações Públicas</a> </li>
+                            <li><a href="http://portal.metodista.br/secretariado">Secretariado Executivo Bilíngue</a> </li>
+                            <li><a href="http://portal.metodista.br/sistemas-de-informacao">Sistemas de Informação</a> </li>
+                            <li><a href="http://portal.metodista.br/sistemas-embarcados">Sistemas Embarcados</a></li>
+                            <li><a href="http://portal.metodista.br/sistemas-para-internet">Sistemas para internet</a></li>
+                            <li><a href="http://portal.metodista.br/fateo">Teologia</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="categoria-global">
+                        <a href="#"><strong>Graduação a Distância</strong></a>
+                        <ul class="nav-sub2 gradead">
+                            <li><a href="http://portal.metodista.br/administracao-ead">Administração</a></li>
+                            <li><a href="http://portal.metodista.br/analise-e-desenvolvimento-de-sistemas">Análise e Desenvolvimento de Sistemas</a></li>
+                            <li><a href="http://portal.metodista.br/ciencias-contabeis-ead/">Ciências Contábeis</a></li>
+                            <li><a href="http://portal.metodista.br/ciencias-sociais">Ciências Sociais</a></li>
+                            <li><a href="http://portal.metodista.br/engenharia-ambiental">Engenharia Ambiental e Sanitária</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-ambiental">Gestão Ambiental</a></li>
+    						<li><a href="http://portal.metodista.br/ead/graduacao-a-distancia/cursos/ciencias-biologicas">Ciências Biológicas</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-comercial">Gestão Comercial</a> </li>
+                            <li><a href="http://portal.metodista.br/gestao-financeira">Gestão Financeira</a>                            </li>
+                            <li><a href="http://portal.metodista.br/gestaohospitalar">Gestão Hospitalar</a>                            </li>
+                            <li><a href="http://portal.metodista.br/gestao-de-comercio-exterior-ead">Gestão de Comércio Exterior</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-de-recursos-humanos-ead">Gestão de Recursos Humanos</a>                            </li>
+                            <li><a href="http://portal.metodista.br/gestao-de-seguros">Gestão de Seguros</a>                            </li>
+                            <li><a href="http://portal.metodista.br/gestao-da-tecnologia-da-informacao">Gestão da Tecnologia da Informação</a></li>
+                            <li><a href="http://portal.metodista.br/gestao-portuaria">Gestão Portuária</a>                            </li>
+                            <li><a href="http://portal.metodista.br/gestao-publica">Gestão Pública</a> </li>
+                            <li><a href="http://portal.metodista.br/ead/graduacao-a-distancia/cursos/letras-lingua-estrangeira-espanhol">Letras – Língua Estrangeira (Espanhol)</a></li>
+							<li><a href="http://portal.metodista.br/letras-lingua-portuguesa-ead">Letras - Língua Portuguesa</a> </li>
+                            <li><a href="http://portal.metodista.br/logistica-ead">Logística</a> </li>
+                            <li><a href="http://portal.metodista.br/marketing-ead">Marketing</a> </li>
+                            <li><a href="http://portal.metodista.br/ead/cursos/matematica">Matemática</a> </li>
+                            <li><a href="http://portal.metodista.br/pedagogia-ead">Pedagogia</a> </li>
+                            <li><a href="http://portal.metodista.br/seguranca-publica">Segurança Pública</a> </li>
+                            <li><a href="http://portal.metodista.br/processos-gerenciais-ead">Processos Gerenciais</a> </li>
+                            <li><a href="http://portal.metodista.br/fateo/cursos/integralizacao-de-creditos">Integralização de Créditos em Teologia</a> </li>
+                            <li><a href="http://portal.metodista.br/jogos-digitais">Jogos Digitais</a></li>
+                            <li><a href="http://portal.metodista.br/teologia-ead">Teologia</a></li>
+                        </ul>
+                    </li>
+                    <li class="categoria-global">
+                        <a class="linkpai" href="http://portal.metodista.br/lato"><strong>Especialização e MBAs</strong></a>
+                        <!-- ul class="nav-sub2 posesp">
+                        <h2>A Distância</h2>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/comunicacao-empresarial-ead">Comunicação Empresarial</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/controladoria-ead">Controladoria e Finanças</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/gerenciamento-de-projetos-de-ti-ead">Gerenciamento de Projetos de TI Com Práticas Alinhadas ao PMI</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/gestao-da-qualidade-ead">Gestão da Qualidade</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/gestao-de-conteudo-em-comunicacao-jornalismo">Gestão de Conteúdo em Comunicação - Jornalismo</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/gestao-empresarial-ead">Gestão Empresarial</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/gestao-estrategica-de-pessoas-e-psicologia-organizacional-ead">Gestão Estratégica de Pessoas e Psicologia Organizacional</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/marketing-ead">Marketing</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/mpa">Master Public Administration (MPA)</a></li>
+                          <li><a href="http://portal.metodista.br/lato/portugues-lingua-e-literatura-pres">Português - Língua e Literatura</a></li>
+                          <li><a href="http://portal.metodista.br/lato/psicopedagogia">Psicopedagogia</a></li>
+                        
+                          <h2 class="pre">Presencial</h2>
+                          <li><a href="http://portal.metodista.br/lato/administracao-hospitalar">Administração Hospitalar </a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/assessoria-executiva">Assessoria Executiva</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/comunicacao-empresarial">Comunicação Empresarial</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/controladoria">Controladoria e Finanças</a></li>
+                          <li><a href="http://portal.metodista.br/lato/educacao-infantil">Educação Infantil</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/gestao-empresarial">Gestão Empresarial</a></li>
+                          <li><a href="http://portal.metodista.br/emec/especializacao/gestao-estrategica-de-pessoas-e-psicologia-organizacional">Gestão Estratégica de Pessoas e Psicologia Organizacional</a></li>
+                          <li><a href="http://portal.metodista.br/lato/filosofia-contemporanea">Filosofia Contemporânea e História</a></li>
+                        
+                            </ul-->
+                    </li>
+                    <li class="categoria-global">
+                        <a href="#"><strong>Mestrado e Doutorado</strong></a>
+                        <ul class="nav-sub2 posmes">
+                            <li><a href="http://portal.metodista.br/posadministracao">Administração</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/posreligiao">Ciências da Religião</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/poscom">Comunicação Social</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/poseducacao">Educação</a>
+                            </li>
+                            <li><a href="http://portal.metodista.br/pospsico">Psicologia da Saúde</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="categoria-global none"><strong><br />Veja também</strong>
+                    </li>
+                    <li><a href="http://processoseletivo.metodista.br">Processo Seletivo</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/ead">Educação a Distância</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/curta-duracao/">Curta Duração</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/emec/incompany">In Company</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/centro-de-linguas">Centro de Línguas</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/emec">Educação Corporativa</a>
+                    </li>
+                    <li><a href="http://portal.metodista.br/terceiraidade">Terceira Idade</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list xirrion"> <a class="link-pri" href="http://portal.metodista.br/biologicas-e-saude">BIOLÓGICAS E SAÚDE</a>
+            </li>
+            <li class="list xirrion"> <a class="link-pri" href="http://portal.metodista.br/comunicacao">COMUNICAÇÃO</a>
+            </li>
+            <li class="list xirrion"> <a class="link-pri" href="http://portal.metodista.br/exatas-e-tecnologia">EXATAS E TECNOLOGIA</a>
+            </li>
+            <li class="list xirrion"> <a class="link-pri" href="http://portal.metodista.br/gestao-e-negocios">GESTÃO E NEGÓCIOS</a>
+            </li>
+            <li class="list xirrion"> <a class="link-pri" href="http://portal.metodista.br/humanidades">HUMANIDADES</a>
+            </li>
+            <li class="list xirrion"> <a class="link-pri" href="http://portal.metodista.br/ead">EDUCAÇÃO À DISTÂNCIA</a>
+            </li>
+            <li class="list smart" id="global-list6"> <a class="link-pri" href="http://portal.metodista.br/responsivel/pos-graduacao"> PÓS-GRADUAÇÃO</a>
+            </li>
+            <li id="global-list3" class="list"><a class="link-pri" href="http://portal.metodista.br/pesquisa">PESQUISA</a>
+            </li>
+            <li class="list"><a class="link-pri" href="http://portal.metodista.br/extensao">EXTENS&Atilde;O</a>
+            </li>
+     
+     
+             <li id="global-list1" class="list xirrim">
+                <a class="link-pri" href="http://portal.metodista.br/processo-seletivo/">PROCESSO SELETIVO</a>
+                <ul class="nav-sub">
+                    <li><a href="http://portal.metodista.br/processo-seletivo/graduacao-presencial">Graduação Presencial</a></li>
+                    <li><a href="http://portal.metodista.br/processo-seletivo/graduacao-a-distancia/">Graduação a Distância</a></li>
+                    <li><a href="http://portal.metodista.br/lato/">Pós-Graduação Especialização</a></li>
+                    <li><a href="http://portal.metodista.br/stricto/">Mestrado e Doutorado</a></li>
+     
+                </ul>
+              </li>
+     
+     
+            <li class="list xirrim" id="global-list5"><a class="link-pri" href="http://portal.metodista.br/ead">EDUCAÇÃO A DISTÂNCIA</a>
+            </li>
+            <li class="list xirrim" id="global-list4"><a href="http://portal.metodista.br/sobre/campi-e-localizacao" class="link-pri">COMO CHEGAR</a>
+            </li>
+            <li class="list xirrim" id="global-list5"><a class="link-pri" href="http://portal.metodista.br/fale-conosco/fale-conosco">FALE CONOSCO</a>
+            </li>
+            <li class="list smart xirrim" id="global-list9"><a class="link-pri" href="http://portal.metodista.br/responsivel/nossas-areas"> ÁREAS</a>
+            </li>
+            <li class="list smart xirrim" id="global-list8"><a class="link-pri" href="http://portal.metodista.br/responsivel/esportes"> ESPORTES</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="conteudo">
+        <div class="menu-esquerdo">
+            <div class="container-box">
+                <p class="box-titulo">ÁREAS</p>
+                <div class="separador"><img class="ponta-separador" src="imagens/ponta.gif" alt="separador" />
+                </div>
+                <ul class="lista-menu">
+                    <li class="link-menu"><a href="comunicacao/comunicacao.html">Comunicação</a>
+                    </li>
+                    <li class="link-menu"><a href="tecnologia/tecnologia.html">Exatas e Tecnológicas</a>
+                    </li>
+                    <li class="link-menu"><a href="gestao-e-negocios/gestao-e-servicos.html">Gestão e Negócios</a>
+                    </li>
+                    <li class="link-menu"><a href="humanidades/humanidades.html">Humanidades</a>
+                    </li>
+                    <li class="link-menu"><a href="saude/saude.html">Saúde</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-box">
+                <p class="box-titulo">PÓS-GRADUAÇÃO</p>
+                <div class="separador"><img class="ponta-separador" src="imagens/ponta.gif" alt="separador" />
+                </div>
+                <ul class="lista-menu">
+                    <li class="link-menu"><a href="lato-sensu/lato-sensu.html">Especialização</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-box">
+                <p class="box-titulo">INSCRIÇÕES ABERTAS</p>
+                <div class="separador"><img class="ponta-separador" src="imagens/ponta.gif" alt="separador" />
+                </div>
+                <ul class="lista-menu">
+                    <li class="link-menu"><a href="lato-sensu/lato-sensu.html">Especialização</a>
+                    </li>
+                    <li class="link-menu"><a href="vestibular/vestibular.html">Graduação</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="conteudo-central">
+            <h1>Lorem Ipsum</h1>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        </div>
+        <div class="conteudo-direito">
+            <div class="container-box">
+                <p class="box-titulo">MAIS PROCURADOS</p>
+                <div class="separador"><img class="ponta-separador" src="imagens/ponta.gif" alt="separador" />
+                </div>
+                <ul class="lista-menu">
+                    <li class="link-menu"><a href="http://www.metodista.br/siga-2.0" target="_blank">SIGA</a>
+                    </li>
+                    <li class="link-menu"><a href="vestibular/vestibular.html">Vestibular</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-box">
+                <p class="box-titulo">ACESSOS</p>
+                <div class="separador"><img class="ponta-separador" src="imagens/ponta.gif" alt="separador" />
+                </div>
+                <ul class="lista-menu">
+                    <li class="link-menu"><a href="http://www.metodista.br/siga-2.0" target="_blank">SIGA</a>
+                    </li>
+                    <li class="link-menu"><a href="http://www.metodista.br/ead/ava" target="_blank">EduEAD</a>
+                    </li>
+                    <li class="link-menu"><a href="https://www.metodista.br/portalims/web/index.html" target="_blank">Portal do Aluno</a>
+                    </li>
+                    <li class="link-menu"><a href="http://periodicos.capes.gov.br.ez99.periodicos.capes.gov.br/index.php?option=com_phome" target="_blank">Portal CAPES</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="footerAssociacoes">
+        <div class="footer">
+            <h5>Associações:</h5>
+            <div id="footerAss">
+                <ul class="blcAss">
+                    <li>
+                        <a href="http://cogeime.org.br" title="Cogeime" target="_blank"><img src="imagens/logo-cogeime-pb.png" alt="COGEIME" />
+                        </a>
+                    </li>
+                    <li>Instituto Metodista de Serviços Educacionais</li>
+                </ul>
+                <ul class="blcAss">
+                    <li>
+                        <a href="http://iamscu.net" title="IAMSCU" target="_blank"><img src="imagens/logo-iamscu-pb.png" alt="IAMSCU" />
+                        </a>
+                    </li>
+                    <li><em>International Association of Methodist Schools, Colleges and Universities</em>
+                    </li>
+                </ul>
+                <ul class="blcAss">
+                    <li>
+                        <a href="http://www.alaime.net/site/" title="" target="_blank"><img src="imagens/logo-alaime-pb.png" alt="ALAIME" />
+                        </a>
+                    </li>
+                    <li><em>Asociación Latinoamericana de Instituciones Metodistas de Educación</em>
+                    </li>
+                </ul>
+                <ul class="blcAss">
+                    <li>
+                        <a href="http://www.abiee.org.br/" title="" target="_blank"><img src="imagens/logo-abiee-pb.png" alt="ABIEE" />
+                        </a>
+                    </li>
+                    <li>Associação Brasileira de Instituições Educacionais Evangélicas</li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- FIM DAS ASSOCIAÇÕES -->
+    <div class="footer-container">
+        <div class="footer">
+            <div class="links-primarios-rodape">
+                <div class="coluna-rodape">
+                    <p>PROCESSOS SELETIVOS</p>
+                    <ul class="lista-rodape">
+                        <li><a name="roda1" href="http://processoseletivo.metodista.br/" target="_blank"> Vestibular</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/stricto">Mestrado/Doutorado</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/lato">Masters e especializa&ccedil;&otilde;es</a>
+                        </li>
+                    </ul>
+                    <p>ENSINO / CURSOS</p>
+                    <ul class="lista-rodape">
+                        <li><a href="http://portal.metodista.br/biologicas-e-saude">Biol&oacute;gicas e Sa&uacute;de</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/comunicacao">Comunica&ccedil;&atilde;o</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/exatas-e-tecnologia">Exatas e Tecnologia</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/gestao-e-negocios">Gest&atilde;o e Neg&oacute;cios</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/humanidades">Humanidades e Direito</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/ead"> Educa&ccedil;&atilde;o a dist&acirc;ncia                </a> </li>
+                    </ul>
+                    <p>&nbsp;</p>
+                </div>
+                <div class="coluna-rodape">
+                    <p>SERVI&Ccedil;OS &Agrave; COMUNIDADE / EXTENS&Atilde;O UNIVERSIT&Aacute;RIA</p>
+                    <ul class="lista-rodape">
+                        <li> <a href="http://portal.metodista.br/esportes/academia-escola">Academia-escola</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/consultoria/">Ag&ecirc;ncia Metodista de Consultoria</a>
+                        </li>
+                        <li><a href="http://metodista.br/agicom">Ag&ecirc;ncia Integrada de Comunica&ccedil;&atilde;o</a>
+                        </li>
+                    
+                        <li><a href="http://portal.metodista.br/cenpro">Cenpro</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/centro-de-linguas">Centro de L&iacute;nguas</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/emec/incompany">Cursos In Company</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/direito/infraestrutura/escritorio-de-assistencia-judiciaria">Escrit&oacute;rio de Assist&ecirc;ncia Jur&iacute;dica</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/veterinaria/hospital-veterinario">Hospital Veterin&aacute;rio </a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/metodista-sustentavel"> Metodista Sustent&aacute;vel</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/nac">N&uacute;cleo de Arte e Cultura</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/matematica/evento/eventos">Olimp&iacute;ada de Matem&aacute;tica</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/policlinica">Policl&iacute;nica</a> </li>
+                        <li><a href="http://portal.metodista.br/terceiraidade">Projeto Aquarela/Terceira Idade</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="coluna-rodape">
+                    <p>SERVI&Ccedil;OS AOS ALUNOS</p>
+                    <ul class="lista-rodape">
+                        <li><a href="http://portal.metodista.br/area-do-aluno">Área do aluno</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/financeiro">Financeiro</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/nac">N&uacute;cleo de Arte e Cultura</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/nfc/">N&uacute;cleo de Forma&ccedil;&atilde;o Cidad&atilde;</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/pastoral">Pastoral Universit&aacute;ria</a>
+                        </li>
+                        <li><a href="https://www.metodista.br/portalims/web/index.html" target="_blank">Portal do Aluno</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/secretaria-academica">Secretaria Acad&ecirc;mica</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/sempremetodista">Sempre Met&ocirc;</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/siga-2.0">SIGA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="coluna-rodape">
+                    <ul class="lista-rodape">
+                        <li>
+                            <p>PESQUISA</p>
+                            <ul class="lista-rodape">
+                                <li><a href="http://portal.metodista.br/gestaodecidades">C&aacute;tedra Gest&atilde;o de Cidades</a>
+                                </li>
+                                <li><a href="http://portal.metodista.br/unesco">C&aacute;tedra Unesco/Metodista</a>
+                                </li>
+                                <li><a href="http://portal.metodista.br/pesquisa">Pr&oacute;-Reitoria de P&oacute;s-Gradua&ccedil;&atilde;o e Pesquisa</a>
+                                </li>
+                            </ul>
+                            <p>PUBLICA&Ccedil;&Otilde;ES</p>
+                            <ul class="lista-rodape">
+                                <li><a href="http://portal.metodista.br/jornal-da-metodista">Jornal da Metodista</a>
+                                </li>
+                                <li><a href="https://www.metodista.br/periodicos/" target="_blank">Portal Metodista de Peri&oacute;dicos</a>
+                                </li>
+                                <li><a href="https://www.metodista.br/rronline" target="_blank">Rudge Ramos Online</a>
+                                </li>
+                                <li><a href="http://portal.metodista.br/sala-de-imprensa" target="_blank">Sala de Imprensa</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="coluna-rodape">
+                    <p>ESPORTES</p>
+                    <ul class="lista-rodape">
+                        <li><a href="http://portal.metodista.br/esportes/academia-escola">Academia-Escola</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/basquete">Basquete</a>
+                        </li>
+                        <li><a href="http://portal.metodista.br/handebol">Handebol</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="info-meto">
+                <div class="metodista">
+                    <p>UNIVERSIDADE METODISTA DE S&Atilde;O PAULO</p>
+                </div>
+                <div class="contato">
+                    <ul>
+                        <li><b><a href="http://portal.metodista.br/fale-conosco">Fale Conosco</a></b>
+                        </li>
+                        <li><b>Grande S&atilde;o Paulo:</b> (11) 4366-5000</li>
+                        <li><b>Outras localidades:</b> 0800 889 2222</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <span class="siteactionsrodape">
+               <div class="links_berra_sup">  
+                  <a  id="superglobal" href="http://portal.metodista.br/atualiza"> Atualiza</a> |
+                  <a  id="supergloba2" href="http://portal.metodista.br/rhrapido"> RH Rápido </a> |
+                  <a  id="supergloba3" href="http://owa.metodista.br"> Webmail</a>  |                           
+                  <a   id="supergloba4" href="/trabalhe-conosco">  Trabalhe </a> |  
+                  <a  id="supergloba5"  href="/fale-conosco/" > Contato</a>
+               </div>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
