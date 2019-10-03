@@ -2295,8 +2295,8 @@ table#leadcaixa .input_texto {
 
 .section-lato .logo-portal .link-logo {
     display: block;
-    width: 100%;
-    height: 70px;
+    width: auto;
+    height: 57px;
     border: none;
     background: url('../imagens/lato1.gif') no-repeat;
     background-size: contain !important;
@@ -2421,6 +2421,15 @@ table#leadcaixa .input_texto {
     height: 70px;
     border: none;
     background: url('../imagens/logo-teologia-ead.jpg') no-repeat;
+    background-size: contain !important;
+}
+
+.section-educacao-fisica-ead .logo-portal .link-logo {
+    display: block;
+    width: 100%;
+    height: 70px;
+    border: none;
+    background: url('../imagens/logo-educacao-fisica-ead.jpg') no-repeat;
     background-size: contain !important;
 }
 
@@ -3830,7 +3839,7 @@ xd.section-fateo dl.portlet p {
     width: 100%;
     height: 70px;
     border: none;
-    background: url('../imagens/avaliacao-institucional.gif') no-repeat;
+    background: url('../imagens/avaliacao-institucional.png') no-repeat;
     background-size: contain !important;
 }
 
