@@ -290,6 +290,105 @@ body.template-fg_base_view_p3.section-solicitacao-de-servicos-de-comunicacao-e-m
     width: 32%;
 }
 
+body.section-area-do-aluno.subsection-transferencias .cover-pfg-tile.tile-content,
+body.section-area-do-aluno.subsection-noticias-transferencia-2020 .cover-pfg-tile.tile-content,
+body.section-secretaria-academica.subsection-transferencias .cover-pfg-tile.tile-content {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  background: rgba(235,204,3,1);
+  background: -moz-linear-gradient(-45deg, rgba(235,204,3,1) 0%, rgba(224,224,38,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(235,204,3,1)), color-stop(100%, rgba(224,224,38,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(235,204,3,1) 0%, rgba(224,224,38,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(235,204,3,1) 0%, rgba(224,224,38,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(235,204,3,1) 0%, rgba(224,224,38,1) 100%);
+  background: linear-gradient(135deg, rgba(235,204,3,1) 0%, rgba(224,224,38,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebcc03', endColorstr='#e0e026', GradientType=1 );
+}
+
+body.section-area-do-aluno.subsection-transferencias #content h2,
+body.section-area-do-aluno.subsection-noticias-transferencia-2020 #content h2,
+body.section-secretaria-academica.subsection-transferencias #content h2 {
+  font-family: 'Roboto';
+  color: #353535;
+  text-align: left;
+  line-height: 1em;
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: solid 2px #353535;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+body.section-area-do-aluno.subsection-transferencias label.formQuestion,
+body.section-area-do-aluno.subsection-noticias-transferencia-2020 label.formQuestion,
+body.section-secretaria-academica.subsection-transferencias label.formQuestion {
+  margin-top: 20px;
+  color: #353535;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+body.section-area-do-aluno.subsection-transferencias input:not(.context),
+body.section-area-do-aluno.subsection-noticias-transferencia-2020 input:not(.context),
+body.section-secretaria-academica.subsection-transferencias input:not(.context) {
+  width: 100% !important;
+  height: 28px;
+  border: none;
+}
+
+body.section-area-do-aluno.subsection-transferencias input.context,
+body.section-area-do-aluno.subsection-noticias-transferencia-2020 input.context,
+body.section-secretaria-academica.subsection-transferencias input.context {
+  transition:0.4s;
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  border: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: 10px;
+  background: rgba(5, 88, 166, 1);
+  background: -moz-linear-gradient(top, rgba(5, 88, 166, 1) 0%, rgba(32, 124, 229, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5, 88, 166, 1)), color-stop(100%, rgba(32, 124, 229, 1)));
+  background: -webkit-linear-gradient(top, rgba(5, 88, 166, 1) 0%, rgba(32, 124, 229, 1) 100%);
+  background: -o-linear-gradient(top, rgba(5, 88, 166, 1) 0%, rgba(32, 124, 229, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(5, 88, 166, 1) 0%, rgba(32, 124, 229, 1) 100%);
+  background: linear-gradient(to bottom, rgba(5, 88, 166, 1) 0%, rgba(32, 124, 229, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0558a6', endColorstr='#207ce5', GradientType=0);
+}
+
+body.section-area-do-aluno.subsection-transferencias input.context:hover,
+body.section-area-do-aluno.subsection-noticias-transferencia-2020 input.context:hover,
+body.section-secretaria-academica.subsection-transferencias input.context:hover {
+  transition:0.4s;
+  background: rgba(4, 74, 140, 1);
+  background: -moz-linear-gradient(top, rgba(4, 74, 140, 1) 0%, rgba(11, 84, 161, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(4, 74, 140, 1)), color-stop(100%, rgba(11, 84, 161, 1)));
+  background: -webkit-linear-gradient(top, rgba(4, 74, 140, 1) 0%, rgba(11, 84, 161, 1) 100%);
+  background: -o-linear-gradient(top, rgba(4, 74, 140, 1) 0%, rgba(11, 84, 161, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(4, 74, 140, 1) 0%, rgba(11, 84, 161, 1) 100%);
+  background: linear-gradient(to bottom, rgba(4, 74, 140, 1) 0%, rgba(11, 84, 161, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#044a8c', endColorstr='#0b54a1', GradientType=0);
+}
+
+body.section-area-do-aluno.subsection-transferencias div.formControls,
+body.section-area-do-aluno.subsection-noticias-transferencia-2020 div.formControls,
+body.section-secretaria-academica.subsection-transferencias div.formControls {
+  margin: 0 !important;
+}
+
+body.section-area-do-aluno.subsection-transferencias #content li.formTab a.required span:after, #content-core li.formTab a.required span:after, div.field span.required:after,
+body.section-area-do-aluno.subsection-noticias-transferencia-2020 #content li.formTab a.required span:after, #content-core li.formTab a.required span:after, div.field span.required:after,
+body.section-secretaria-academica.subsection-transferencias #content li.formTab a.required span:after, #content-core li.formTab a.required span:after, div.field span.required:after {
+  content: "*" !important;
+  color: #0e64bb !important;
+}
+
 /* FIM - ESTILO PARA FORMULARIO DE SOLICITACAO DE SERVICOS */
 
 .documentPublished {
@@ -2768,6 +2867,23 @@ table#leadcaixa .input_texto {
     background: url('../imagens/logo-analise-e-desenvolvimento-de-sistemas.jpg?1ab') no-repeat;
     background-size: contain !important;
 }
+.section-historia-ead .logo-portal .link-logo {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: url('../imagens/historia-ead.jpg') no-repeat;
+    background-size: contain !important;
+}
+.section-producao-publicitaria .logo-portal .link-logo {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: url('../imagens/logo-producao-publicitaria.jpg') no-repeat;
+    background-size: contain !important;
+}
+
 
 .section-automacao-industrial .logo-portal .link-logo {
     display: block;
@@ -5141,7 +5257,7 @@ ul.nav-sub {
     left: 220px;
     display: block;
     height: auto !important;
-    padding: 17px 0 0 20px !important;
+    padding: 15px 15px 15px 23px!important;
     opacity: 1;
     background: #000;
 }
@@ -5149,8 +5265,8 @@ ul.nav-sub {
 ul.nav-sub .nav-sub2 li {
     display: list-item;
     float: left;
-    margin-right: 30px;
-    padding-bottom: 6px;
+    padding: 2px;
+    margin: 2px 0;
     list-style: disc outside none;
     color: #333;
 }
@@ -5172,9 +5288,7 @@ ul.nav-sub .nav-sub2 li a:hover {
 }
 
 .nav-sub2.seggrad, .nav-sub2.posmes {
-    right: -127% !important;
-    width: 117%;
-    margin-top: -87px;
+    width: 250px;
 }
 
 .nav-sub2.seggrad {
@@ -5737,6 +5851,14 @@ fieldset#search-field input[type="submit"] {
     ul.nav-sub li {
         margin-left: 0 !important;
     }
+    .nav-sub2.posmes.mead {
+    width: 500px;
+}
+	ul.nav-sub2.posmes.mead .menuesq, ul.nav-sub2.posmes.mead .menudir {
+    float: left;
+    width: 250px;
+    display: block;
+}
     body.userrole-anonymous dl.actionMenu.deactivated fieldset:first-child {
         display: none !important;
     }
